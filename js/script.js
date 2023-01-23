@@ -13,7 +13,7 @@ $(document).ready(function() {
     });
 });
 
-  function dropRow(priority_field_id,table_row_id,table_body_id) {
+  function dropRow(priority_field_id,table_body_id) {
     //get row move position
     const move_priority = $("#"+priority_field_id).val();
     //get current element - tr
